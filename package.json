@@ -1,0 +1,23 @@
+{
+  "name": "tutorials-frontend-savebirds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --skip-plugins eslint",
+    "build": "vue-cli-service build --skip-plugins eslint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "core-js": "^3.33.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.3.4",
+    "sass": "^1.69.4",
+    "sass-loader": "^13.3.2"
+  }
+}
